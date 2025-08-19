@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36408.4
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdAPI", "AdAPI\AdAPI.csproj", "{68279411-42C2-423B-A252-7F92F14415BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdApi.Test", "AdApi.Test\AdApi.Test.csproj", "{32A5CBF5-509D-4A78-B4EF-D215A234DCDA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{68279411-42C2-423B-A252-7F92F14415BD} = {68279411-42C2-423B-A252-7F92F14415BD}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68279411-42C2-423B-A252-7F92F14415BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68279411-42C2-423B-A252-7F92F14415BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68279411-42C2-423B-A252-7F92F14415BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68279411-42C2-423B-A252-7F92F14415BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32A5CBF5-509D-4A78-B4EF-D215A234DCDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32A5CBF5-509D-4A78-B4EF-D215A234DCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32A5CBF5-509D-4A78-B4EF-D215A234DCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32A5CBF5-509D-4A78-B4EF-D215A234DCDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6112165F-BD15-4C24-8B94-8E2C7213F08D}
+	EndGlobalSection
+EndGlobal
